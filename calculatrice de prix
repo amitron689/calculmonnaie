@@ -1,0 +1,19 @@
+wallet = int(input('Entrer le nombre d euro que vous posserdé'))
+print("Vous avez actuellement", wallet, "euro")
+
+#maintenant je vai crée un article qui a pour prix : 20 euros
+
+produit = 20
+print("Le produit vaut ", produit,"euros")
+
+#ok maintenant, je vais enlever le prix du produit (20) a mon argent (wallet)
+
+wallet = wallet - produit
+
+#afficher le prix final
+
+print("Produit acheté !")
+print("Il ne vous reste plus que", wallet, "euros")
+
+#voir le lien en description pour avoir ce code... Buskavida
+
